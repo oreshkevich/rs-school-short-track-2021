@@ -9,7 +9,7 @@
  * For n = 152, the output should be 52
  *
  */
-function deleteDigit( n ) {
+function deleteDigit(n) {
   const s = String(n).split('').map(Number);
   return Math.max(...s.map((el, i) => {
     const gg = s.slice();

@@ -18,13 +18,13 @@
  */
 
 function removeKFromList(l, k) {
-  const arr = l;
+  const array = l;
   const g = [];
-  for (let i = 0; i <= arr.length - 1; i++) {
-    if (arr[i] === k) {
-      delete arr[i];
+  for (let i = 0; i <= array.length - 1; i++) {
+    if (array[i] === k) {
+      delete array[i];
     } else {
-      g.push(arr[i]);
+      g.push(array[i]);
     }
   }
   return g;

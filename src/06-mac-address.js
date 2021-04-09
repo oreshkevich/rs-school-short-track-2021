@@ -12,8 +12,8 @@
  * For 00-1B-63-84-45-E6, the output should be true.
  *
  */
-function isMAC48Address( n ) {
- const reg = /^([A-F|0-9]{2}-){5}[A-F|0-9]{2}$/;
+function isMAC48Address(n) {
+  const reg = /^([A-F|0-9]{2}-){5}[A-F|0-9]{2}$/;
   if (!reg.test(n)) {
     return false;
   }

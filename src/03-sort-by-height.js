@@ -10,7 +10,7 @@
  * The result should be [-1, 150, 160, 170, -1, -1, 180, 190]
  */
 function sortByHeight(arr) {
- const arrOfOnes = [];
+  const arrOfOnes = [];
   const array = arr.map((el, idx) => {
     if (el === -1) arrOfOnes.push(idx);
     return el;

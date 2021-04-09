@@ -19,15 +19,15 @@
 
 function removeKFromList(l, k) {
   const array = l;
-  const g = [];
+  const gs = [];
   for (let i = 0; i <= array.length - 1; i++) {
     if (array[i] === k) {
       delete array[i];
     } else {
-      g.push(array[i]);
+      gs.push(array[i]);
     }
   }
-  return g;
+  return gs;
 }
 
 module.exports = removeKFromList;

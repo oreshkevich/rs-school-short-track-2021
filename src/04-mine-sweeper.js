@@ -21,13 +21,12 @@
  *  [1, 1, 1]
  * ]
  */
- function minesweeper(matrix) {
+function minesweeper(matrix) {
   const arr = [];
   for (let i = 0; i < matrix.length; i++) {
     arr.push([]);
     for (let j = 0; j < matrix[i].length; j++) {
       let g = 0;
-
       if (i < matrix.length - 1) {
         if (matrix[i + 1][j]) {
           g += 1;
